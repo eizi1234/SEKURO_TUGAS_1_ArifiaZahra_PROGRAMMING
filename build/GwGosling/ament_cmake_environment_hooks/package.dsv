@@ -1,0 +1,4 @@
+source;share/GwGosling/local_setup.bash
+source;share/GwGosling/local_setup.dsv
+source;share/GwGosling/local_setup.sh
+source;share/GwGosling/local_setup.zsh

@@ -1,0 +1,9 @@
+WARNING: Package name "GwGosling" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "GwGosling" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+gmake[2]: Warning: File '/root/GHitzeed/src/GwGosling/src/subscriber_node.cpp' has modification time 72 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[31mCMake Error at cmake_install.cmake:86 (file):
+  file INSTALL cannot find "/root/GHitzeed/src/GwGosling/launch": No such
+  file or directory.
+
+[0m

@@ -1,0 +1,2 @@
+Invoking command in '/root/GHitzeed/build/GwGosling': /usr/bin/cmake /root/GHitzeed/src/GwGosling -DCMAKE_INSTALL_PREFIX=/root/GHitzeed/install/GwGosling
+Invoked command in '/root/GHitzeed/build/GwGosling' returned '1': /usr/bin/cmake /root/GHitzeed/src/GwGosling -DCMAKE_INSTALL_PREFIX=/root/GHitzeed/install/GwGosling

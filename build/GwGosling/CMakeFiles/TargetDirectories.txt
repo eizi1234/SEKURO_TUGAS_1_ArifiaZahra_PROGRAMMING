@@ -1,0 +1,11 @@
+/root/GHitzeed/build/GwGosling/CMakeFiles/uninstall.dir
+/root/GHitzeed/build/GwGosling/CMakeFiles/GwGosling_uninstall.dir
+/root/GHitzeed/build/GwGosling/CMakeFiles/publisher_node.dir
+/root/GHitzeed/build/GwGosling/CMakeFiles/subscriber_node.dir
+/root/GHitzeed/build/GwGosling/CMakeFiles/test.dir
+/root/GHitzeed/build/GwGosling/CMakeFiles/edit_cache.dir
+/root/GHitzeed/build/GwGosling/CMakeFiles/rebuild_cache.dir
+/root/GHitzeed/build/GwGosling/CMakeFiles/list_install_components.dir
+/root/GHitzeed/build/GwGosling/CMakeFiles/install.dir
+/root/GHitzeed/build/GwGosling/CMakeFiles/install/local.dir
+/root/GHitzeed/build/GwGosling/CMakeFiles/install/strip.dir

@@ -1,0 +1,52 @@
+[0.028s] Invoking command in '/root/GHitzeed/build/GwGosling': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/GHitzeed/src/GwGosling -DCMAKE_INSTALL_PREFIX=/root/GHitzeed/install/GwGosling
+[0.052s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.284s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.582s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.585s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.594s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.610s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.631s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.682s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.685s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.555s] WARNING: Package name "GwGosling" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[11.577s] -- Configuring done
+[11.625s] -- Generating done
+[11.637s] -- Build files have been written to: /root/GHitzeed/build/GwGosling
+[11.652s] Invoked command in '/root/GHitzeed/build/GwGosling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/GHitzeed/src/GwGosling -DCMAKE_INSTALL_PREFIX=/root/GHitzeed/install/GwGosling
+[11.656s] Invoking command in '/root/GHitzeed/build/GwGosling': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/GHitzeed/build/GwGosling -- -j16 -l16
+[11.708s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.937s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[12.225s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.230s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.242s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.327s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.329s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[22.049s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[22.206s] WARNING: Package name "GwGosling" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[22.224s] -- Configuring done
+[22.249s] -- Generating done
+[22.260s] -- Build files have been written to: /root/GHitzeed/build/GwGosling
+[22.315s] gmake[2]: Warning: File '/root/GHitzeed/src/GwGosling/src/subscriber_node.cpp' has modification time 72 s in the future
+[22.329s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[22.329s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o[0m
+[31.063s] [ 75%] [32m[1mLinking CXX executable publisher_node[0m
+[31.669s] [ 75%] Built target publisher_node
+[36.878s] [100%] [32m[1mLinking CXX executable subscriber_node[0m
+[37.553s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[37.569s] [100%] Built target subscriber_node
+[37.597s] Invoked command in '/root/GHitzeed/build/GwGosling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/GHitzeed/build/GwGosling -- -j16 -l16
+[37.620s] Invoking command in '/root/GHitzeed/build/GwGosling': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/GHitzeed/build/GwGosling
+[37.636s] -- Install configuration: ""
+[37.638s] -- Installing: /root/GHitzeed/install/GwGosling/lib/GwGosling/publisher_node
+[37.643s] -- Set runtime path of "/root/GHitzeed/install/GwGosling/lib/GwGosling/publisher_node" to ""
+[37.643s] -- Installing: /root/GHitzeed/install/GwGosling/lib/GwGosling/subscriber_node
+[37.653s] -- Set runtime path of "/root/GHitzeed/install/GwGosling/lib/GwGosling/subscriber_node" to ""
+[37.653s] [31mCMake Error at cmake_install.cmake:86 (file):
+[37.653s]   file INSTALL cannot find "/root/GHitzeed/src/GwGosling/launch": No such
+[37.653s]   file or directory.
+[37.654s] 
+[37.654s] [0m
+[37.657s] Invoked command in '/root/GHitzeed/build/GwGosling' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/GHitzeed/build/GwGosling

@@ -1,0 +1,434 @@
+[0.000000] (-) TimerEvent: {}
+[0.000387] (GwGosling) JobQueued: {'identifier': 'GwGosling', 'dependencies': OrderedDict()}
+[0.002555] (GwGosling) JobStarted: {'identifier': 'GwGosling'}
+[0.019285] (GwGosling) JobProgress: {'identifier': 'GwGosling', 'progress': 'cmake'}
+[0.021554] (GwGosling) Command: {'cmd': ['/usr/bin/cmake', '/root/GHitzeed/src/GwGosling', '-DCMAKE_INSTALL_PREFIX=/root/GHitzeed/install/GwGosling'], 'cwd': '/root/GHitzeed/build/GwGosling', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/GHitzeed'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/GHitzeed/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'LaptopEliteGuwehRek'), ('WSL_INTEROP', '/run/WSL/2477_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/arifi/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/mnt/c/Users/arifi/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli:/mnt/c/Users/arifi/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/arifi/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/arifi/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/arifi/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/arifi/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/arifi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/arifi/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/GHitzeed/build/GwGosling'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054572] (GwGosling) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098952] (-) TimerEvent: {}
+[0.199517] (-) TimerEvent: {}
+[0.286184] (GwGosling) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299703] (-) TimerEvent: {}
+[0.400233] (-) TimerEvent: {}
+[0.500768] (-) TimerEvent: {}
+[0.583939] (GwGosling) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.587567] (GwGosling) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.596775] (GwGosling) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.600898] (-) TimerEvent: {}
+[0.612050] (GwGosling) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.633390] (GwGosling) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.684282] (GwGosling) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.687389] (GwGosling) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701101] (-) TimerEvent: {}
+[0.801596] (-) TimerEvent: {}
+[0.902089] (-) TimerEvent: {}
+[1.002629] (-) TimerEvent: {}
+[1.103191] (-) TimerEvent: {}
+[1.203766] (-) TimerEvent: {}
+[1.304395] (-) TimerEvent: {}
+[1.405033] (-) TimerEvent: {}
+[1.505566] (-) TimerEvent: {}
+[1.606154] (-) TimerEvent: {}
+[1.706732] (-) TimerEvent: {}
+[1.807390] (-) TimerEvent: {}
+[1.908019] (-) TimerEvent: {}
+[2.008675] (-) TimerEvent: {}
+[2.109342] (-) TimerEvent: {}
+[2.209926] (-) TimerEvent: {}
+[2.310537] (-) TimerEvent: {}
+[2.411126] (-) TimerEvent: {}
+[2.511792] (-) TimerEvent: {}
+[2.612322] (-) TimerEvent: {}
+[2.712930] (-) TimerEvent: {}
+[2.813472] (-) TimerEvent: {}
+[2.913961] (-) TimerEvent: {}
+[3.014523] (-) TimerEvent: {}
+[3.115106] (-) TimerEvent: {}
+[3.215623] (-) TimerEvent: {}
+[3.316223] (-) TimerEvent: {}
+[3.416918] (-) TimerEvent: {}
+[3.517476] (-) TimerEvent: {}
+[3.618030] (-) TimerEvent: {}
+[3.718642] (-) TimerEvent: {}
+[3.819310] (-) TimerEvent: {}
+[3.919839] (-) TimerEvent: {}
+[4.020429] (-) TimerEvent: {}
+[4.121126] (-) TimerEvent: {}
+[4.221717] (-) TimerEvent: {}
+[4.322375] (-) TimerEvent: {}
+[4.422883] (-) TimerEvent: {}
+[4.523471] (-) TimerEvent: {}
+[4.624118] (-) TimerEvent: {}
+[4.724861] (-) TimerEvent: {}
+[4.825453] (-) TimerEvent: {}
+[4.926047] (-) TimerEvent: {}
+[5.026991] (-) TimerEvent: {}
+[5.127649] (-) TimerEvent: {}
+[5.228269] (-) TimerEvent: {}
+[5.329200] (-) TimerEvent: {}
+[5.429809] (-) TimerEvent: {}
+[5.530314] (-) TimerEvent: {}
+[5.630850] (-) TimerEvent: {}
+[5.731410] (-) TimerEvent: {}
+[5.831902] (-) TimerEvent: {}
+[5.932441] (-) TimerEvent: {}
+[6.033098] (-) TimerEvent: {}
+[6.133606] (-) TimerEvent: {}
+[6.234146] (-) TimerEvent: {}
+[6.334653] (-) TimerEvent: {}
+[6.435166] (-) TimerEvent: {}
+[6.535683] (-) TimerEvent: {}
+[6.636242] (-) TimerEvent: {}
+[6.736870] (-) TimerEvent: {}
+[6.837428] (-) TimerEvent: {}
+[6.937990] (-) TimerEvent: {}
+[7.038563] (-) TimerEvent: {}
+[7.139145] (-) TimerEvent: {}
+[7.239669] (-) TimerEvent: {}
+[7.340230] (-) TimerEvent: {}
+[7.440889] (-) TimerEvent: {}
+[7.541556] (-) TimerEvent: {}
+[7.642343] (-) TimerEvent: {}
+[7.742958] (-) TimerEvent: {}
+[7.843509] (-) TimerEvent: {}
+[7.944119] (-) TimerEvent: {}
+[8.044871] (-) TimerEvent: {}
+[8.145382] (-) TimerEvent: {}
+[8.245928] (-) TimerEvent: {}
+[8.346510] (-) TimerEvent: {}
+[8.447054] (-) TimerEvent: {}
+[8.547702] (-) TimerEvent: {}
+[8.648362] (-) TimerEvent: {}
+[8.749003] (-) TimerEvent: {}
+[8.849669] (-) TimerEvent: {}
+[8.950289] (-) TimerEvent: {}
+[9.050872] (-) TimerEvent: {}
+[9.151414] (-) TimerEvent: {}
+[9.252188] (-) TimerEvent: {}
+[9.352888] (-) TimerEvent: {}
+[9.453463] (-) TimerEvent: {}
+[9.554009] (-) TimerEvent: {}
+[9.654636] (-) TimerEvent: {}
+[9.755342] (-) TimerEvent: {}
+[9.855938] (-) TimerEvent: {}
+[9.956444] (-) TimerEvent: {}
+[10.057184] (-) TimerEvent: {}
+[10.157724] (-) TimerEvent: {}
+[10.258382] (-) TimerEvent: {}
+[10.358976] (-) TimerEvent: {}
+[10.459579] (-) TimerEvent: {}
+[10.560112] (-) TimerEvent: {}
+[10.660601] (-) TimerEvent: {}
+[10.761230] (-) TimerEvent: {}
+[10.861811] (-) TimerEvent: {}
+[10.962286] (-) TimerEvent: {}
+[11.062816] (-) TimerEvent: {}
+[11.163374] (-) TimerEvent: {}
+[11.263853] (-) TimerEvent: {}
+[11.364337] (-) TimerEvent: {}
+[11.365582] (GwGosling) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.464582] (-) TimerEvent: {}
+[11.557086] (GwGosling) StderrLine: {'line': b'WARNING: Package name "GwGosling" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[11.564811] (-) TimerEvent: {}
+[11.579816] (GwGosling) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.627317] (GwGosling) StdoutLine: {'line': b'-- Generating done\n'}
+[11.639628] (GwGosling) StdoutLine: {'line': b'-- Build files have been written to: /root/GHitzeed/build/GwGosling\n'}
+[11.654156] (GwGosling) CommandEnded: {'returncode': 0}
+[11.655381] (GwGosling) JobProgress: {'identifier': 'GwGosling', 'progress': 'build'}
+[11.656487] (GwGosling) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/GHitzeed/build/GwGosling', '--', '-j16', '-l16'], 'cwd': '/root/GHitzeed/build/GwGosling', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/GHitzeed'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/GHitzeed/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'LaptopEliteGuwehRek'), ('WSL_INTEROP', '/run/WSL/2477_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/arifi/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/mnt/c/Users/arifi/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli:/mnt/c/Users/arifi/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/arifi/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/arifi/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/arifi/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/arifi/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/arifi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/arifi/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/GHitzeed/build/GwGosling'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.664910] (-) TimerEvent: {}
+[11.710759] (GwGosling) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[11.765077] (-) TimerEvent: {}
+[11.865511] (-) TimerEvent: {}
+[11.939051] (GwGosling) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[11.965723] (-) TimerEvent: {}
+[12.066193] (-) TimerEvent: {}
+[12.166733] (-) TimerEvent: {}
+[12.227825] (GwGosling) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[12.232249] (GwGosling) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.244349] (GwGosling) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.258734] (GwGosling) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.266871] (-) TimerEvent: {}
+[12.277272] (GwGosling) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.328973] (GwGosling) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[12.330981] (GwGosling) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[12.367108] (-) TimerEvent: {}
+[12.467658] (-) TimerEvent: {}
+[12.568125] (-) TimerEvent: {}
+[12.668654] (-) TimerEvent: {}
+[12.769376] (-) TimerEvent: {}
+[12.869901] (-) TimerEvent: {}
+[12.970444] (-) TimerEvent: {}
+[13.071023] (-) TimerEvent: {}
+[13.171535] (-) TimerEvent: {}
+[13.272277] (-) TimerEvent: {}
+[13.372911] (-) TimerEvent: {}
+[13.473519] (-) TimerEvent: {}
+[13.574066] (-) TimerEvent: {}
+[13.674653] (-) TimerEvent: {}
+[13.775283] (-) TimerEvent: {}
+[13.875902] (-) TimerEvent: {}
+[13.976578] (-) TimerEvent: {}
+[14.077417] (-) TimerEvent: {}
+[14.178003] (-) TimerEvent: {}
+[14.278554] (-) TimerEvent: {}
+[14.379043] (-) TimerEvent: {}
+[14.479538] (-) TimerEvent: {}
+[14.580076] (-) TimerEvent: {}
+[14.680709] (-) TimerEvent: {}
+[14.781257] (-) TimerEvent: {}
+[14.881780] (-) TimerEvent: {}
+[14.982388] (-) TimerEvent: {}
+[15.082978] (-) TimerEvent: {}
+[15.183462] (-) TimerEvent: {}
+[15.283960] (-) TimerEvent: {}
+[15.384463] (-) TimerEvent: {}
+[15.485128] (-) TimerEvent: {}
+[15.585692] (-) TimerEvent: {}
+[15.686226] (-) TimerEvent: {}
+[15.786962] (-) TimerEvent: {}
+[15.887497] (-) TimerEvent: {}
+[15.988041] (-) TimerEvent: {}
+[16.088473] (-) TimerEvent: {}
+[16.189126] (-) TimerEvent: {}
+[16.289584] (-) TimerEvent: {}
+[16.390374] (-) TimerEvent: {}
+[16.490927] (-) TimerEvent: {}
+[16.591452] (-) TimerEvent: {}
+[16.692026] (-) TimerEvent: {}
+[16.792519] (-) TimerEvent: {}
+[16.893015] (-) TimerEvent: {}
+[16.993562] (-) TimerEvent: {}
+[17.094101] (-) TimerEvent: {}
+[17.194756] (-) TimerEvent: {}
+[17.295593] (-) TimerEvent: {}
+[17.396246] (-) TimerEvent: {}
+[17.496790] (-) TimerEvent: {}
+[17.597298] (-) TimerEvent: {}
+[17.697881] (-) TimerEvent: {}
+[17.798466] (-) TimerEvent: {}
+[17.898963] (-) TimerEvent: {}
+[17.999521] (-) TimerEvent: {}
+[18.100007] (-) TimerEvent: {}
+[18.200541] (-) TimerEvent: {}
+[18.301238] (-) TimerEvent: {}
+[18.401787] (-) TimerEvent: {}
+[18.502284] (-) TimerEvent: {}
+[18.602810] (-) TimerEvent: {}
+[18.703484] (-) TimerEvent: {}
+[18.804150] (-) TimerEvent: {}
+[18.904674] (-) TimerEvent: {}
+[19.005296] (-) TimerEvent: {}
+[19.105793] (-) TimerEvent: {}
+[19.206293] (-) TimerEvent: {}
+[19.306863] (-) TimerEvent: {}
+[19.407376] (-) TimerEvent: {}
+[19.507870] (-) TimerEvent: {}
+[19.608446] (-) TimerEvent: {}
+[19.709090] (-) TimerEvent: {}
+[19.809624] (-) TimerEvent: {}
+[19.910181] (-) TimerEvent: {}
+[20.010689] (-) TimerEvent: {}
+[20.111374] (-) TimerEvent: {}
+[20.211930] (-) TimerEvent: {}
+[20.312536] (-) TimerEvent: {}
+[20.413165] (-) TimerEvent: {}
+[20.513689] (-) TimerEvent: {}
+[20.614240] (-) TimerEvent: {}
+[20.714854] (-) TimerEvent: {}
+[20.815368] (-) TimerEvent: {}
+[20.915928] (-) TimerEvent: {}
+[21.016457] (-) TimerEvent: {}
+[21.117097] (-) TimerEvent: {}
+[21.217698] (-) TimerEvent: {}
+[21.318330] (-) TimerEvent: {}
+[21.418918] (-) TimerEvent: {}
+[21.519455] (-) TimerEvent: {}
+[21.620077] (-) TimerEvent: {}
+[21.720873] (-) TimerEvent: {}
+[21.821418] (-) TimerEvent: {}
+[21.921990] (-) TimerEvent: {}
+[22.022461] (-) TimerEvent: {}
+[22.051753] (GwGosling) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[22.122651] (-) TimerEvent: {}
+[22.208199] (GwGosling) StderrLine: {'line': b'WARNING: Package name "GwGosling" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[22.222827] (-) TimerEvent: {}
+[22.226019] (GwGosling) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.251491] (GwGosling) StdoutLine: {'line': b'-- Generating done\n'}
+[22.262185] (GwGosling) StdoutLine: {'line': b'-- Build files have been written to: /root/GHitzeed/build/GwGosling\n'}
+[22.317887] (GwGosling) StderrLine: {'line': b"gmake[2]: Warning: File '/root/GHitzeed/src/GwGosling/src/subscriber_node.cpp' has modification time 72 s in the future\n"}
+[22.322963] (-) TimerEvent: {}
+[22.331313] (GwGosling) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[22.331820] (GwGosling) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[22.423169] (-) TimerEvent: {}
+[22.523678] (-) TimerEvent: {}
+[22.624635] (-) TimerEvent: {}
+[22.725339] (-) TimerEvent: {}
+[22.825904] (-) TimerEvent: {}
+[22.926415] (-) TimerEvent: {}
+[23.026935] (-) TimerEvent: {}
+[23.127455] (-) TimerEvent: {}
+[23.227980] (-) TimerEvent: {}
+[23.328569] (-) TimerEvent: {}
+[23.429190] (-) TimerEvent: {}
+[23.529769] (-) TimerEvent: {}
+[23.630335] (-) TimerEvent: {}
+[23.730848] (-) TimerEvent: {}
+[23.831344] (-) TimerEvent: {}
+[23.932019] (-) TimerEvent: {}
+[24.032709] (-) TimerEvent: {}
+[24.133275] (-) TimerEvent: {}
+[24.233808] (-) TimerEvent: {}
+[24.334477] (-) TimerEvent: {}
+[24.435293] (-) TimerEvent: {}
+[24.535917] (-) TimerEvent: {}
+[24.636472] (-) TimerEvent: {}
+[24.737064] (-) TimerEvent: {}
+[24.837697] (-) TimerEvent: {}
+[24.938341] (-) TimerEvent: {}
+[25.038882] (-) TimerEvent: {}
+[25.139512] (-) TimerEvent: {}
+[25.240159] (-) TimerEvent: {}
+[25.340956] (-) TimerEvent: {}
+[25.441827] (-) TimerEvent: {}
+[25.542651] (-) TimerEvent: {}
+[25.643469] (-) TimerEvent: {}
+[25.744167] (-) TimerEvent: {}
+[25.844805] (-) TimerEvent: {}
+[25.945549] (-) TimerEvent: {}
+[26.046300] (-) TimerEvent: {}
+[26.147116] (-) TimerEvent: {}
+[26.247659] (-) TimerEvent: {}
+[26.348335] (-) TimerEvent: {}
+[26.449281] (-) TimerEvent: {}
+[26.550079] (-) TimerEvent: {}
+[26.650809] (-) TimerEvent: {}
+[26.751520] (-) TimerEvent: {}
+[26.852186] (-) TimerEvent: {}
+[26.952967] (-) TimerEvent: {}
+[27.053552] (-) TimerEvent: {}
+[27.154210] (-) TimerEvent: {}
+[27.254793] (-) TimerEvent: {}
+[27.355455] (-) TimerEvent: {}
+[27.456110] (-) TimerEvent: {}
+[27.556892] (-) TimerEvent: {}
+[27.657513] (-) TimerEvent: {}
+[27.758411] (-) TimerEvent: {}
+[27.859039] (-) TimerEvent: {}
+[27.959799] (-) TimerEvent: {}
+[28.060369] (-) TimerEvent: {}
+[28.161044] (-) TimerEvent: {}
+[28.262016] (-) TimerEvent: {}
+[28.362698] (-) TimerEvent: {}
+[28.463464] (-) TimerEvent: {}
+[28.564201] (-) TimerEvent: {}
+[28.665006] (-) TimerEvent: {}
+[28.765673] (-) TimerEvent: {}
+[28.866219] (-) TimerEvent: {}
+[28.966812] (-) TimerEvent: {}
+[29.067466] (-) TimerEvent: {}
+[29.168121] (-) TimerEvent: {}
+[29.268803] (-) TimerEvent: {}
+[29.369413] (-) TimerEvent: {}
+[29.470110] (-) TimerEvent: {}
+[29.570809] (-) TimerEvent: {}
+[29.671481] (-) TimerEvent: {}
+[29.772107] (-) TimerEvent: {}
+[29.872814] (-) TimerEvent: {}
+[29.973398] (-) TimerEvent: {}
+[30.074085] (-) TimerEvent: {}
+[30.174695] (-) TimerEvent: {}
+[30.275369] (-) TimerEvent: {}
+[30.376209] (-) TimerEvent: {}
+[30.476928] (-) TimerEvent: {}
+[30.577546] (-) TimerEvent: {}
+[30.678286] (-) TimerEvent: {}
+[30.778957] (-) TimerEvent: {}
+[30.879530] (-) TimerEvent: {}
+[30.980169] (-) TimerEvent: {}
+[31.064764] (GwGosling) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher_node\x1b[0m\n'}
+[31.080365] (-) TimerEvent: {}
+[31.180961] (-) TimerEvent: {}
+[31.281531] (-) TimerEvent: {}
+[31.382068] (-) TimerEvent: {}
+[31.482563] (-) TimerEvent: {}
+[31.583110] (-) TimerEvent: {}
+[31.671848] (GwGosling) StdoutLine: {'line': b'[ 75%] Built target publisher_node\n'}
+[31.683271] (-) TimerEvent: {}
+[31.784323] (-) TimerEvent: {}
+[31.885063] (-) TimerEvent: {}
+[31.985774] (-) TimerEvent: {}
+[32.086268] (-) TimerEvent: {}
+[32.186821] (-) TimerEvent: {}
+[32.287352] (-) TimerEvent: {}
+[32.387890] (-) TimerEvent: {}
+[32.488439] (-) TimerEvent: {}
+[32.589075] (-) TimerEvent: {}
+[32.689626] (-) TimerEvent: {}
+[32.790130] (-) TimerEvent: {}
+[32.890666] (-) TimerEvent: {}
+[32.991204] (-) TimerEvent: {}
+[33.091766] (-) TimerEvent: {}
+[33.192971] (-) TimerEvent: {}
+[33.293579] (-) TimerEvent: {}
+[33.394181] (-) TimerEvent: {}
+[33.494703] (-) TimerEvent: {}
+[33.595297] (-) TimerEvent: {}
+[33.695928] (-) TimerEvent: {}
+[33.796574] (-) TimerEvent: {}
+[33.897147] (-) TimerEvent: {}
+[33.997632] (-) TimerEvent: {}
+[34.098270] (-) TimerEvent: {}
+[34.198796] (-) TimerEvent: {}
+[34.299335] (-) TimerEvent: {}
+[34.399973] (-) TimerEvent: {}
+[34.501027] (-) TimerEvent: {}
+[34.601578] (-) TimerEvent: {}
+[34.702116] (-) TimerEvent: {}
+[34.802835] (-) TimerEvent: {}
+[34.903533] (-) TimerEvent: {}
+[35.004170] (-) TimerEvent: {}
+[35.104853] (-) TimerEvent: {}
+[35.205429] (-) TimerEvent: {}
+[35.306275] (-) TimerEvent: {}
+[35.406933] (-) TimerEvent: {}
+[35.507584] (-) TimerEvent: {}
+[35.608187] (-) TimerEvent: {}
+[35.708688] (-) TimerEvent: {}
+[35.809272] (-) TimerEvent: {}
+[35.909761] (-) TimerEvent: {}
+[36.010454] (-) TimerEvent: {}
+[36.111104] (-) TimerEvent: {}
+[36.211645] (-) TimerEvent: {}
+[36.312185] (-) TimerEvent: {}
+[36.412829] (-) TimerEvent: {}
+[36.513409] (-) TimerEvent: {}
+[36.613974] (-) TimerEvent: {}
+[36.714497] (-) TimerEvent: {}
+[36.815056] (-) TimerEvent: {}
+[36.880054] (GwGosling) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_node\x1b[0m\n'}
+[36.915264] (-) TimerEvent: {}
+[37.015887] (-) TimerEvent: {}
+[37.116643] (-) TimerEvent: {}
+[37.217276] (-) TimerEvent: {}
+[37.317800] (-) TimerEvent: {}
+[37.418351] (-) TimerEvent: {}
+[37.518885] (-) TimerEvent: {}
+[37.555009] (GwGosling) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[37.571179] (GwGosling) StdoutLine: {'line': b'[100%] Built target subscriber_node\n'}
+[37.599471] (GwGosling) CommandEnded: {'returncode': 0}
+[37.601425] (GwGosling) JobProgress: {'identifier': 'GwGosling', 'progress': 'install'}
+[37.619093] (-) TimerEvent: {}
+[37.622467] (GwGosling) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/GHitzeed/build/GwGosling'], 'cwd': '/root/GHitzeed/build/GwGosling', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/GHitzeed'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/GHitzeed/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'LaptopEliteGuwehRek'), ('WSL_INTEROP', '/run/WSL/2477_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/arifi/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand:/mnt/c/Users/arifi/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli:/mnt/c/Users/arifi/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/arifi/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/arifi/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/arifi/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/arifi/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/arifi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/arifi/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/GHitzeed/build/GwGosling'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[37.637893] (GwGosling) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.640939] (GwGosling) StdoutLine: {'line': b'-- Installing: /root/GHitzeed/install/GwGosling/lib/GwGosling/publisher_node\n'}
+[37.644889] (GwGosling) StdoutLine: {'line': b'-- Set runtime path of "/root/GHitzeed/install/GwGosling/lib/GwGosling/publisher_node" to ""\n'}
+[37.645498] (GwGosling) StdoutLine: {'line': b'-- Installing: /root/GHitzeed/install/GwGosling/lib/GwGosling/subscriber_node\n'}
+[37.655371] (GwGosling) StdoutLine: {'line': b'-- Set runtime path of "/root/GHitzeed/install/GwGosling/lib/GwGosling/subscriber_node" to ""\n'}
+[37.655822] (GwGosling) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:86 (file):\n'}
+[37.655946] (GwGosling) StderrLine: {'line': b'  file INSTALL cannot find "/root/GHitzeed/src/GwGosling/launch": No such\n'}
+[37.656043] (GwGosling) StderrLine: {'line': b'  file or directory.\n'}
+[37.656137] (GwGosling) StderrLine: {'line': b'\n'}
+[37.656219] (GwGosling) StderrLine: {'line': b'\x1b[0m\n'}
+[37.659614] (GwGosling) CommandEnded: {'returncode': 1}
+[37.687700] (GwGosling) JobEnded: {'identifier': 'GwGosling', 'rc': 1}
+[37.698632] (-) EventReactorShutdown: {}
